@@ -99,3 +99,37 @@ Password: Cyberlab123!
 </p>
 <p>
 
+6) Create Organizational Units (OUs) in Active Directory
+
+7) Access Active Directory Users and Computers (ADUC):
+
+Log into DC-1 using mydomain.com\labuser.
+Open Active Directory Users and Computers from the Start menu or by running dsa.msc in the Run dialog (Win + R).
+Create the “_EMPLOYEES” Organizational Unit:
+<p>
+<img src="https://imgur.com/s9jveoN.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+
+<p>
+<img src="https://imgur.com/XHT3vpR.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+  
+8) Right-click on the domain name (e.g., mydomain.com) in the left-hand pane.
+Select New > Organizational Unit.
+Enter the name _EMPLOYEES and click OK.
+Create the “_ADMINS” Organizational Unit:
+<p>
+<img src="https://imgur.com/qrp25vx.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+9) Right-click on the domain name again.
+Select New > Organizational Unit.
+Enter the name _ADMINS and click OK.
+Verify Creation:
+<p>
+<img src="https://imgur.com/XhuzwCM.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+10) Ensure both OUs (_EMPLOYEES and _ADMINS) appear under the domain in the ADUC console.
