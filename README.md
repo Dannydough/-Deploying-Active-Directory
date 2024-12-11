@@ -188,7 +188,7 @@ Log back into DC-1 using the following credentials:
 Username: mydomain.com\jane_admin
 Password: Cyberlab123!
 Use jane_admin as Your Admin Account:
-  <p>
+<p>
 <img src="https://imgur.com/MiUJahG.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
@@ -198,23 +198,11 @@ Use jane_admin as Your Admin Account:
 16) Join Client-1 to the Domain and Organize in Active Directory
 
 Log into Client-1 as the Local Admin (labuser):
-
-  <p>
-<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Azure Networking Steps"/>
-</p>
-<p>
-
-  <p>
-<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Azure Networking Steps"/>
-</p>
-<p>
-  
-17) Use Remote Desktop (RDP) to connect to Client-1.
+Use Remote Desktop (RDP) to connect to Client-1.
 Log in with the original local admin credentials:
 Username: labuser
 Password: Cyberlab123!
 Join Client-1 to the Domain:
-
 Open the System Properties:
 Right-click on This PC or My Computer, then select Properties > Advanced System Settings.
 Go to the Computer Name tab and click Change.
@@ -222,19 +210,19 @@ Select Domain, enter the domain name (e.g., mydomain.com), and click OK.
 Provide domain admin credentials (e.g., mydomain.com\jane_admin, password Cyberlab123!) when prompted.
 Restart Client-1 to complete the domain join process.
 Verify Client-1 in ADUC:
-  <p>
+<p>
 <img src="https://imgur.com/d5PqzEV.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
-    <p>
+<p>
 <img src="https://imgur.com/1RnSnQx.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
-    <p>
+<p>
 <img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
-    <p>
+<p>
 <img src="https://imgur.com/BSRQojH.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
