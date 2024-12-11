@@ -239,5 +239,8 @@ Locate Client-1 in the Computers container.
 Right-click on Client-1 and select Move.
 Choose the _CLIENTS OU and click OK.
 Confirm Organization:
-
 Verify that Client-1 now appears under the _CLIENTS OU in ADUC.
+<p>
+<img src="https://imgur.com/BSRQojH.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
