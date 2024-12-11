@@ -219,7 +219,7 @@ Verify Client-1 in ADUC:
 </p>
 <p>
 <p>
-<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+<img src="https://imgur.com/GvQXDKn.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
 <p>
