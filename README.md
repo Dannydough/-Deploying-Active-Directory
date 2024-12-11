@@ -142,8 +142,20 @@ Use mydomain.com\labuser credentials to log into DC-1.
 Create the Employee Account:
 
 12) Open Active Directory Users and Computers (ADUC).
-Navigate to the _EMPLOYEES Organizational Unit (OU).
-Right-click on _EMPLOYEES and select New > User.
+
+<p>
+<img src="https://imgur.com/58gmOz3.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+13) Right click mydomain.com > New > Organizational Unit > Create _EMPLOYEES > Create _ADMINS 
+  **ATTENTION** 
+  The picture at the bottom is the results of create both the employees and admins
+<p>
+<img src="https://imgur.com/4T2NbOP.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+ 
+14) Right-click on _ADMIN and select New > User.
 Enter the following details:
 First Name: Jane
 Last Name: Doe
@@ -152,15 +164,26 @@ Click Next and enter the password: Cyberlab123!
 Uncheck User must change password at next logon and check Password never expires if desired.
 Click Next, then Finish.
 Add jane_admin to the Domain Admins Security Group:
-
-13) In ADUC, locate the Domain Admins security group.
+<p>
+<img src="https://imgur.com/V6sPD0K.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://imgur.com/C7vmAqy.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://imgur.com/2s32Bq2.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+14) In ADUC, locate the Domain Admins security group.
 Right-click on Domain Admins and select Properties.
 Go to the Members tab and click Add.
 Enter jane_admin and click Check Names.
 Click OK to add jane_admin to the group.
 Log Out and Log In as jane_admin:
 
-14) Log out of DC-1, and close the connection.
+15) Log out of DC-1, and close the connection.
 Log back into DC-1 using the following credentials:
 Username: mydomain.com\jane_admin
 Password: Cyberlab123!
