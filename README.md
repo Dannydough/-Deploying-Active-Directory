@@ -164,6 +164,11 @@ Click Next and enter the password: Cyberlab123!
 Uncheck User must change password at next logon and check Password never expires if desired.
 Click Next, then Finish.
 Add jane_admin to the Domain Admins Security Group:
+In ADUC, locate the Domain Admins security group.
+Right-click on Domain Admins and select Properties.
+Go to the Members tab and click Add.
+Enter jane_admin and click Check Names.
+Click OK to add jane_admin to the group.
 <p>
 <img src="https://imgur.com/V6sPD0K.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
@@ -176,11 +181,6 @@ Add jane_admin to the Domain Admins Security Group:
 <img src="https://imgur.com/2s32Bq2.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
-14) In ADUC, locate the Domain Admins security group.
-Right-click on Domain Admins and select Properties.
-Go to the Members tab and click Add.
-Enter jane_admin and click Check Names.
-Click OK to add jane_admin to the group.
 Log Out and Log In as jane_admin:
 
 15) Log out of DC-1, and close the connection.
@@ -189,4 +189,4 @@ Username: mydomain.com\jane_admin
 Password: Cyberlab123!
 Use jane_admin as Your Admin Account:
 
-From now on, use the jane_admin account for administrative tasks on DC-1.
+*ATTENTION* --------> From now on, use the jane_admin account for administrative tasks on DC-1.
