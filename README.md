@@ -93,3 +93,9 @@ Log Back into DC-1:
 Use the following credentials to log in:
 Username: mydomain.com\labuser
 Password: Cyberlab123!
+
+<p>
+<img src="https://imgur.com/2c3UAUe.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
+
