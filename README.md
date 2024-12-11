@@ -133,3 +133,37 @@ Verify Creation:
 </p>
 <p>
 10) Ensure both OUs (_EMPLOYEES and _ADMINS) appear under the domain in the ADUC console.
+
+11) Create a New Employee Account and Assign Domain Admins Group
+
+Log into DC-1:
+
+Use mydomain.com\labuser credentials to log into DC-1.
+Create the Employee Account:
+
+12) Open Active Directory Users and Computers (ADUC).
+Navigate to the _EMPLOYEES Organizational Unit (OU).
+Right-click on _EMPLOYEES and select New > User.
+Enter the following details:
+First Name: Jane
+Last Name: Doe
+Username: jane_admin
+Click Next and enter the password: Cyberlab123!
+Uncheck User must change password at next logon and check Password never expires if desired.
+Click Next, then Finish.
+Add jane_admin to the Domain Admins Security Group:
+
+13) In ADUC, locate the Domain Admins security group.
+Right-click on Domain Admins and select Properties.
+Go to the Members tab and click Add.
+Enter jane_admin and click Check Names.
+Click OK to add jane_admin to the group.
+Log Out and Log In as jane_admin:
+
+14) Log out of DC-1, and close the connection.
+Log back into DC-1 using the following credentials:
+Username: mydomain.com\jane_admin
+Password: Cyberlab123!
+Use jane_admin as Your Admin Account:
+
+From now on, use the jane_admin account for administrative tasks on DC-1.
