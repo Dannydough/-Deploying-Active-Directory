@@ -188,5 +188,9 @@ Log back into DC-1 using the following credentials:
 Username: mydomain.com\jane_admin
 Password: Cyberlab123!
 Use jane_admin as Your Admin Account:
+  <p>
+<img src="https://imgur.com/MiUJahG.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+</p>
+<p>
 
 *ATTENTION* --------> From now on, use the jane_admin account for administrative tasks on DC-1.
