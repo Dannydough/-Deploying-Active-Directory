@@ -149,19 +149,19 @@ The picture at the bottom is the results of create both the employees and admins
 <p>
  
 14) Right-click on _ADMIN and select New > User.
-Enter the following details:
-First Name: Jane
-Last Name: Doe
-Username: jane_admin
-Click Next and enter the password: Cyberlab123!
-Uncheck User must change password at next logon and check Password never expires if desired.
-Click Next, then Finish.
-Add jane_admin to the Domain Admins Security Group:
-In ADUC, locate the Domain Admins security group.
-Right-click on Domain Admins and select Properties.
-Go to the Members tab and click Add.
-Enter jane_admin and click Check Names.
-Click OK to add jane_admin to the group.
+- Enter the following details:
+- First Name: Jane
+- Last Name: Doe
+- Username: jane_admin
+- Click Next and enter the password: Cyberlab123!
+- Uncheck User must change password at next logon and check Password never expires if desired.
+- Click Next, then Finish.
+- Add jane_admin to the Domain Admins Security Group:
+- In ADUC, locate the Domain Admins security group.
+- Right-click on Domain Admins and select Properties.
+- Go to the Members tab and click Add.
+- Enter jane_admin and click Check Names.
+- Click OK to add jane_admin to the group.
 <p>
 <img src="https://imgur.com/V6sPD0K.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
@@ -177,10 +177,10 @@ Click OK to add jane_admin to the group.
 Log Out and Log In as jane_admin:
 
 15) Log out of DC-1, and close the connection.
-Log back into DC-1 using the following credentials:
-Username: mydomain.com\jane_admin
-Password: Cyberlab123!
-Use jane_admin as Your Admin Account:
+- Log back into DC-1 using the following credentials:
+- Username: mydomain.com\jane_admin
+- Password: Cyberlab123!
+- Use jane_admin as Your Admin Account:
 <p>
 <img src="https://imgur.com/MiUJahG.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
@@ -190,19 +190,19 @@ Use jane_admin as Your Admin Account:
 
 16) Join Client-1 to the Domain and Organize in Active Directory
 
-Log into Client-1 as the Local Admin (labuser):
-Use Remote Desktop (RDP) to connect to Client-1.
-Log in with the original local admin credentials:
-Username: labuser
-Password: Cyberlab123!
-Join Client-1 to the Domain:
-Open the System Properties:
-Right-click on This PC or My Computer, then select Properties > Advanced System Settings.
-Go to the Computer Name tab and click Change.
-Select Domain, enter the domain name (e.g., mydomain.com), and click OK.
-Provide domain admin credentials (e.g., mydomain.com\jane_admin, password Cyberlab123!) when prompted.
-Restart Client-1 to complete the domain join process.
-Verify Client-1 in ADUC:
+- Log into Client-1 as the Local Admin (labuser):
+- Use Remote Desktop (RDP) to connect to Client-1.
+- Log in with the original local admin credentials:
+- Username: labuser
+- Password: Cyberlab123!
+- Join Client-1 to the Domain:
+- Open the System Properties:
+- Right-click on This PC or My Computer, then select Properties > Advanced System Settings.
+- Go to the Computer Name tab and click Change.
+- Select Domain, enter the domain name (e.g., mydomain.com), and click OK.
+- Provide domain admin credentials (e.g., mydomain.com\jane_admin, password Cyberlab123!) when prompted.
+- Restart Client-1 to complete the domain join process.
+- Verify Client-1 in ADUC:
 <p>
 <img src="https://imgur.com/d5PqzEV.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
@@ -220,19 +220,19 @@ Verify Client-1 in ADUC:
 </p>
 <p>
 18) Log into DC-1 as mydomain.com\jane_admin.
-Open Active Directory Users and Computers (ADUC).
-Navigate to the Computers container to confirm that Client-1 appears in the list.
-Organize Client-1 in ADUC:
+- Open Active Directory Users and Computers (ADUC).
+- Navigate to the Computers container to confirm that Client-1 appears in the list.
+- Organize Client-1 in ADUC:
 
-Create a new Organizational Unit (OU):
-In ADUC, right-click on the domain (e.g., mydomain.com) and select New > Organizational Unit.
-Name the new OU _CLIENTS and click OK.
-Move Client-1 into the new OU:
-Locate Client-1 in the Computers container.
-Right-click on Client-1 and select Move.
-Choose the _CLIENTS OU and click OK.
-Confirm Organization:
-Verify that Client-1 now appears under the _CLIENTS OU in ADUC.
+- Create a new Organizational Unit (OU):
+- In ADUC, right-click on the domain (e.g., mydomain.com) and select New > Organizational Unit.
+- Name the new OU _CLIENTS and click OK.
+- Move Client-1 into the new OU:
+- Locate Client-1 in the Computers container.
+- Right-click on Client-1 and select Move.
+- Choose the _CLIENTS OU and click OK.
+- Confirm Organization:
+- Verify that Client-1 now appears under the _CLIENTS OU in ADUC.
 <p>
 <img src="https://imgur.com/BSRQojH.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
